@@ -1,0 +1,67 @@
+{
+    "id": "om.elgato.sample-customlayout.action.layout",
+    "items": [
+        {
+            "key": "title",
+            "type": "text",
+            "font": { "size": 16, "weight": 600 },
+            "rect": [16, 4, 132, 24],
+            "alignment": "left",
+            "z-order": 5
+          },
+         {
+            "key": "redrect",
+            "type": "placcard",
+            "rect": [172, 10, 20, 20],
+            "background": "#FF3300",
+            "z-order": 2
+          },
+          {
+            "key": "yellowrect",
+            "type": "placcard",
+            "rect": [172, 40, 20, 20],
+            "background": "#FFDD00",
+            "z-order": 2
+          },
+          {
+            "key": "greenrect",
+            "type": "placcard",
+            "rect": [172, 70, 20, 20],
+            "background": "#33BB00"
+          },
+          {
+            "key": "midrect",
+            "type": "pixmap",
+            "rect": [152, 10, 12, 80],
+            "background": "#AAAAAA",
+            "z-order": 3
+          },
+          {
+            "key": "bar0",
+            "type": "gbar",
+            "subtype": 4,
+            "rect": [16, 32, 100, 20],
+            "bar_h": 12,
+            "border_w": 0,
+            "z-order": 3
+          },
+          {
+            "key": "bar1",
+            "type": "gbar",
+            "subtype": 4,
+            "rect": [16, 54, 100, 20],
+            "bar_h": 12,
+            "border_w": 0,
+            "bar_bg_c": "0:#ff0000,0.33:#a6d4ec,0.66:#f4b675,1:#00ff00"
+          },
+          {
+            "key": "bar2",
+            "type": "bar",
+            "subtype": 4,
+            "border_w": 0,
+            "rect": [16, 76, 100, 12],
+            "value": 55
+          }
+       
+    ]
+}

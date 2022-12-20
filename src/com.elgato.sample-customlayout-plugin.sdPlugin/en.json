@@ -1,0 +1,12 @@
+{
+	"Description": "Create a custom layout.", 
+	"Name": "Sample Custom Layout",
+	"Category": "Samples",
+	"com.elgato.sample-customlayout.action": {
+		"Name": "Sample Custom Layout",
+		"Tooltip": "How to create a custom layout."
+	},
+	"Localization": {
+		"None": "None"
+	}
+}

@@ -1,0 +1,54 @@
+{
+    "Actions": [
+        {
+            "Icon": "action/images/actionimage",
+            "Name": "Sample Custom Layout",
+            "States": [
+                {
+                    "Image": "action/images/image"
+                }
+            ],
+            "Controllers": [
+                "Encoder"
+            ],
+            "Encoder": {
+                "layout": "layout/customlayout.json",
+                "Icon": "action/images/dialstack_background.svg",
+                "StackColor": "#0000FF",
+                "TriggerDescription": {
+                    "Rotate": "unused",
+                    "Push": "next example",
+                    "Touch": "next example",
+                    "LongTouch": "Unused"
+                }
+            },
+            "SupportedInMultiActions": false,
+            "Tooltip": "How to use custom layouts.",
+            "UUID": "com.elgato.sample-customlayout.action"
+        }
+    ],
+    "SDKVersion": 2,
+    "Author": "Elgato",
+    "CodePath": "index.html",
+    "PropertyInspectorPath": "actions/property-inspector/inspector.html",
+    "Description": "Use a custom layout.",
+    "Category": "Samples",
+    "CategoryIcon": "category-samples",
+    "Name": "Sample Custom Layout",
+    "Icon": "pluginIcon",
+    "URL": "https://www.elgato.com/gaming/stream-deck",
+    "Version": "0.1.0.02",
+    "OS": [
+        {
+            "Platform": "mac",
+            "MinimumVersion": "10.11"
+        },
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "Software": {
+        "MinimumVersion": "6"
+    }
+}
