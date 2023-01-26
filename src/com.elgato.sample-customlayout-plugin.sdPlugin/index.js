@@ -153,7 +153,7 @@ class SampleAction {
         }
         if(num % 3 === 0) {
             payload.greenrect = {
-                "background": "#003300",
+                "background": "#ffffff",
             };
         } else {
             payload.greenrect = {

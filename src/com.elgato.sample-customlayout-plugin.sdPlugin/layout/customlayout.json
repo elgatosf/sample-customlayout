@@ -27,7 +27,8 @@
             "key": "greenrect",
             "type": "placcard",
             "rect": [172, 70, 20, 20],
-            "background": "#33BB00"
+            "background": "#33BB00",
+            "z-order": 4
           },
           {
             "key": "midrect",
