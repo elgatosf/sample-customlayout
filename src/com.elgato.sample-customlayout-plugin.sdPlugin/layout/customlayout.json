@@ -7,35 +7,35 @@
             "font": { "size": 16, "weight": 600 },
             "rect": [16, 4, 132, 24],
             "alignment": "left",
-            "z-order": 5
+            "zOrder": 5
           },
          {
             "key": "redrect",
             "type": "placcard",
             "rect": [172, 10, 20, 20],
             "background": "#FF3300",
-            "z-order": 2
+            "zOrder": 2
           },
           {
             "key": "yellowrect",
             "type": "placcard",
             "rect": [172, 40, 20, 20],
             "background": "#FFDD00",
-            "z-order": 2
+            "zOrder": 2
           },
           {
             "key": "greenrect",
             "type": "placcard",
             "rect": [172, 70, 20, 20],
             "background": "#33BB00",
-            "z-order": 4
+            "zOrder": 4
           },
           {
             "key": "midrect",
             "type": "pixmap",
             "rect": [152, 10, 12, 80],
             "background": "#AAAAAA",
-            "z-order": 3
+            "zOrder": 3
           },
           {
             "key": "bar0",
@@ -44,7 +44,7 @@
             "rect": [16, 32, 100, 20],
             "bar_h": 12,
             "border_w": 0,
-            "z-order": 3
+            "zOrder": 3
           },
           {
             "key": "bar1",
