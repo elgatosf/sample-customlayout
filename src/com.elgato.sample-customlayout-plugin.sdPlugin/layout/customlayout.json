@@ -11,21 +11,21 @@
           },
          {
             "key": "redrect",
-            "type": "placcard",
+            "type": "pixmap",
             "rect": [172, 10, 20, 20],
             "background": "#FF3300",
             "zOrder": 2
           },
           {
             "key": "yellowrect",
-            "type": "placcard",
+            "type": "pixmap",
             "rect": [172, 40, 20, 20],
             "background": "#FFDD00",
             "zOrder": 2
           },
           {
             "key": "greenrect",
-            "type": "placcard",
+            "type": "pixmap",
             "rect": [172, 70, 20, 20],
             "background": "#33BB00",
             "zOrder": 4
@@ -44,7 +44,8 @@
             "rect": [16, 32, 100, 20],
             "bar_h": 12,
             "border_w": 0,
-            "zOrder": 3
+            "zOrder": 3,
+            "value": 0
           },
           {
             "key": "bar1",
@@ -53,7 +54,8 @@
             "rect": [16, 54, 100, 20],
             "bar_h": 12,
             "border_w": 0,
-            "bar_bg_c": "0:#ff0000,0.33:#a6d4ec,0.66:#f4b675,1:#00ff00"
+            "bar_bg_c": "0:#ff0000,0.33:#a6d4ec,0.66:#f4b675,1:#00ff00",
+            "value": 0
           },
           {
             "key": "bar2",
