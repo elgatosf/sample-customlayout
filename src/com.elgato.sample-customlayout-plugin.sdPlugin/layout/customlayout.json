@@ -63,6 +63,7 @@
             "subtype": 4,
             "border_w": 0,
             "rect": [16, 76, 100, 12],
+            "bar_bg_c": "transparent",
             "value": 55
           }
        
