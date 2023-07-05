@@ -1,5 +1,5 @@
 {
-    "id": "om.elgato.sample-customlayout.action.layout",
+    "id": "com.elgato.sample-customlayout.action.layout",
     "items": [
         {
             "key": "title",
