@@ -44,13 +44,6 @@ sampleCustomlayoutAction.onTitleParametersDidChange(({context, payload}) => {
     MACTIONS[context].color = payload.titleParameters.titleColor;
 });
 
-sampleCustomlayoutAction.onDialPress(({context, payload}) => {
-    // console.log('dial was pressed', context, payload);
-    if(payload.pressed === false) {
-
-    }
-});
-
 sampleCustomlayoutAction.onDialRotate(({context, payload}) => {
     // console.log('dial was rotated', context, payload.ticks);
     if(payload.hasOwnProperty('ticks')) {
@@ -64,6 +57,26 @@ sampleCustomlayoutAction.onTouchTap(({context, payload}) => {
         MACTIONS[context].touchTap();
     }
 });
+
+$SD.onConnected(jsn => {
+    const [version, major] = jsn.appInfo.application.version.split(".").map(e => parseInt(e, 10));
+    const hasDialPress = version == 6 && major < 4;
+    if(hasDialPress) {
+        sampleCustomlayoutAction.onDialPress(({context, payload}) => {
+            console.log('dial was pressed', context, payload);
+            if(payload.pressed === false) {
+                // nothing
+            }
+        });
+        
+    } else {
+        sampleCustomlayoutAction.onDialUp(({ context, payload }) => {
+            console.log('onDialUp', context, payload);
+        });
+    }
+});
+
+
 
 class SampleAction {
     constructor (context, payload) {
